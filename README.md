@@ -61,7 +61,7 @@ Requisite packages for a server application
 This will install all the packages required for your server application to run.
 
 
-Exercise 1: Understanding the User Authentication process
+Step 1: Understanding the User Authentication process
 =========================================================
 
 Let us understand the code in `index.js`.
@@ -275,7 +275,7 @@ Example:
 
 > > Note: **You will now be implementing various CRUD operations for adding, editing and deleting friends by adding the necessary codes and further test the output on Postman.**
 
-Exercise 2: Implement the GET method:
+Step 2: Implement the GET method:
 =====================================
 
 Navigate to `friends.js` file under the directory `router` and you will observe that the endpoints defined in them have skeletal,where you have to implement the get method.
@@ -290,7 +290,7 @@ Navigate to `friends.js` file under the directory `router` and you will observe 
 
 ```
 
-Exercise 3: Implement the GET by specific email method:
+Step 3: Implement the GET by specific email method:
 =======================================================
 
 1.  Write the code inside `router.get("/:email",(req,res)=>{}` to view the user based on email but without using filter method.
@@ -302,7 +302,7 @@ res.send(friends[email])
 });
 ```
 
-Exercise 4: Implement the POST method:
+Step 4: Implement the POST method:
 ======================================
 
 1.  Paste the below code inside `router.post("/",(req,res)=>{}` to add the new user to the JSON/dictionary.And also update the codes in the places mentioned.
@@ -322,7 +322,7 @@ Exercise 4: Implement the POST method:
 
 ```
 
-Exercise 5: Implement the PUT method:
+Step 5: Implement the PUT method:
 =====================================
 
 1.  Paste the below code inside `router.put("/:email", (req, res) => {}` to modify the friend details.And also add the codes in the places mentioned.
@@ -353,7 +353,7 @@ Exercise 5: Implement the PUT method:
 
 ```
 
-Exercise 6: Implement the DELETE method:
+Step 6: Implement the DELETE method:
 ========================================
 
 1.  Paste the below code inside `router.delete("/:email", (req, res) => {}` to delete the friend information based on the email.
@@ -383,7 +383,7 @@ Run the server to view the output
 
   `npm start`
 
-Exercise 7: User registration, login & testing the endpoints using Postman:
+Step 7: User registration, login & testing the endpoints using Postman:
 ===========================================================================
 
 
